@@ -162,7 +162,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 300;
 	font-size: 17px;
     font-size: 1.7rem;
@@ -593,7 +593,7 @@ h1.blog-title {
 }
 
 .main-nav li a:hover {
-    color: rgb(250,180,180);
+    color: #FF4444;
 }
 
 .main-nav .fa {
@@ -690,7 +690,8 @@ main {
 }
 
 .site-footer a:hover {
-    color: #A3BED6;
+    color: #fff;
+    background-image: url(http://files.davidoreilly.com/img/rgb.gif);
 }
 
 .post {
@@ -853,6 +854,10 @@ main {
     padding: 0 20px;
 }
 
+.post-nav {
+    color: #3A95B6;
+}
+
 .newer-posts {
     float: left;
     padding-left: 2%;
@@ -863,7 +868,7 @@ main {
     padding-right: 2%;
 }
 
-.pagination-none {
+.post-nav.pagination-none {
     color: #ccc;
 }
 
